@@ -1,0 +1,71 @@
+.form-container {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    border-top: 4px solid #002F9C; 
+  }
+  .form-title {
+    font-size: 1.8rem;
+    color: #002F9C; 
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .form-label-custom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  .input-field-custom,
+  .select-field-custom {
+    margin-top: 5px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-field-custom:focus,
+  .select-field-custom:focus {
+    border-color: #0055FF;
+    box-shadow: 0 0 5px rgba(0, 85, 255, 0.3);
+  }
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-submit-custom,
+  .button-cancel-custom {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .button-submit-custom {
+    background-color: #0055FF;
+    color: #ffffff;
+  }
+  .button-submit-custom:hover {
+    background-color: #003BB5;
+  }
+  .button-cancel-custom {
+    background-color: #dc3545; 
+    color: #ffffff;
+  }
+  .button-cancel-custom:hover {
+    background-color: #bd2130;
+  }
+  

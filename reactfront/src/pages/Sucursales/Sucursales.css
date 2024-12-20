@@ -1,0 +1,105 @@
+/* Contenedor Principal */
+.delizia-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 20px; /* Desplaza todo hacia abajo para evitar el header */
+  }
+  
+  /* Título */
+  .delizia-title {
+    text-align: center;
+    color: #004aad;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  /* Contenido */
+  .delizia-content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Sidebar */
+  .delizia-sidebar {
+    width: 300px;
+    background-color: #004aad;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Botones de Filtros */
+  .delizia-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .delizia-filter-btn {
+    background-color: #ffffff;
+    color: #004aad;
+    border: 2px solid #004aad;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+  
+  .delizia-filter-btn:hover {
+    background-color: #004aad;
+    color: #ffffff;
+  }
+  
+  /* Barra de Búsqueda */
+  .delizia-search-input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  /* Lista de Sucursales */
+  .delizia-branch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+  }
+  
+  .delizia-indicator {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }
+  
+  .indicator-red {
+    background-color: red;
+  }
+  
+  .indicator-yellow {
+    background-color: yellow;
+  }
+  
+  .indicator-green {
+    background-color: green;
+  }
+  
+  /* Mapa */
+  .delizia-map {
+    flex-grow: 1;
+    height: 500px;
+    border: 3px solid #004aad;
+    border-radius: 10px;
+  }
+  

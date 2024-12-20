@@ -1,0 +1,85 @@
+.container-mascotas {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.tarjetas-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.tarjeta h2 {
+    color: #0033a0;
+    font-size: 18px;
+}
+
+.tarjeta p {
+    font-size: 14px;
+    color: #555;
+}
+
+.precio {
+    font-size: 18px;
+    color: #d11a2a;
+}
+
+.btn-comprar {
+    background-color: #0033a0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn-comprar:hover {
+    background-color: #002675;
+}
+.volver-al-index {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.volver-al-index a button {
+    background-color: #0033a0; /* Azul oscuro, igual que el header */
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 600;
+}
+
+.volver-al-index a button:hover {
+    background-color: #00236b; /* Azul más oscuro */
+    transform: scale(1.1);
+}
+
+.volver-al-index a button:active {
+    transform: scale(1);
+}

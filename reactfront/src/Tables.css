@@ -1,0 +1,237 @@
+
+/* .button-addDates{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: green;
+    padding: 15px;
+    border-radius:10px;
+    color: white;
+    border: 1px solid white;
+}
+
+.button-addDates:hover{
+    background-color: rgb(2, 192, 2);
+} */
+
+/* ====================================== */
+/* .button-delete{
+    background-color: red;
+    padding: 7px;
+    border-radius:10px;
+    color: white;
+    border: none;
+}
+.button-delete:hover{
+    background-color: rgb(192, 22, 22);
+}
+
+.button-edit{
+    background-color: blue;
+    padding: 9px;
+    border-radius:10px;
+    margin-right: 10px;
+    color: white;
+    border: none;
+}
+.button-edit:hover{
+    background-color: rgb(7, 7, 167);
+}
+
+.button-ver{
+    background-color: green;
+    padding: 8px;
+    border-radius:10px;
+    margin-left: 10px;
+    color: white;
+    border: none;
+}
+.button-ver:hover{
+    background-color: rgb(84, 184, 84);
+} */
+
+/* ========================TABLAS ========================== */
+
+.table-personalizado{
+    margin-top: 15px;
+    border: 2px solid white;
+    width: 100%; 
+    border-collapse: collapse;
+    background-color: #17191C; 
+    color: white; 
+}
+
+.th-perso, .td-perso {
+    border: 1px solid white; /* Bordes blancos */
+    padding: 8px; /* Espaciado interno en celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+.th-perso {
+    background-color: #502B8B; /* Fondo más oscuro para el encabezado */
+}
+/* 
+tr:nth-child(even) {
+    background-color: #242526;
+     Fondo alterno para filas pares
+} */
+
+
+  /* ================flechas paginacion==================== */
+
+  .fechas-paginacion{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .textPagi{
+    color: white;
+  }
+
+  .button-flechaPag{
+    /* background-color: white; */
+    border-radius: 5px ;
+    width: 35px;
+    /* padding: 5px; */
+  }
+
+
+  /* ====================================================================== MODALS ============================================================ */
+  
+ /* Alineación de etiquetas e inputs */
+/* form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #e4e6eb;
+  } */
+  
+  /* form label span {
+    width: 120px; 
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .input-modal, .categoria_listbox {
+    width: 210px;
+    padding: 8px;
+    border: 1px solid #3a3b3c;
+    background-color: #18191a;
+    color: #e4e6eb;
+    border-radius: 5px;
+  } */
+
+  /* =======================================================================================NUEVO ANAHI */
+
+  /* Contenedor principal */
+.main-container {
+  background-color: #002F9C; /* Azul oscuro de fondo */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Título de la página */
+.page-title {
+  color: #fff; /* Texto blanco */
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Card principal */
+.card-custom {
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+/* Título dentro de la card */
+.card-title-custom {
+  font-size: 1.5rem;
+  color: #002F9C; /* Azul del tema */
+  margin-bottom: 15px;
+}
+
+/* Botón de registrar */
+.button-add-custom {
+  background-color: #0055FF; /* Azul vibrante */
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.button-add-custom:hover {
+  background-color: #003BB5; /* Azul más oscuro al pasar el mouse */
+}
+
+/* Tabla */
+.table-custom {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-custom thead {
+  background-color: #002F9C; /* Azul oscuro */
+  color: #fff;
+}
+
+.table-custom th,
+.table-custom td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd; /* Bordes grises */
+  font-size: 0.9rem;
+}
+
+.table-custom tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; /* Gris claro */
+}
+
+.table-custom tbody tr:nth-child(even) {
+  background-color: #ffffff; /* Blanco */
+}
+
+/* Columnas de la tabla */
+.table-header-custom {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table-cell-custom {
+  color: #333; /* Texto oscuro */
+}
+
+/* Botones de acción */
+.button-edit-custom {
+  background-color: #007BFF; /* Azul claro */
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-edit-custom:hover {
+  background-color: #0056b3; /* Azul más oscuro */
+}
+
+.button-delete-custom {
+  background-color: #dc3545; /* Rojo */
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-delete-custom:hover {
+  background-color: #bd2130; /* Rojo más oscuro */
+}

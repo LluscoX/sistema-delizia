@@ -1,0 +1,93 @@
+
+  .preview-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview-image {
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+.imagenTable{
+  width: 80px;
+}
+
+.imagen-productos{
+  width: 150px;
+}
+
+.container-productos-ninos {
+  padding: 20px;
+}
+
+.productos-layout {
+  display: flex;
+  gap: 20px; 
+}
+
+/* Estilo para el carrito (lado izquierdo) */
+.carrito-lateral {
+  flex: 1; /* Toma menos espacio comparado con la lista de productos */
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 310px; /* Ancho máximo para el carrito */
+}
+
+/* Estilo para la lista de productos (lado derecho) */
+.productos-lista {
+  flex: 3; /* Toma más espacio comparado con el carrito */
+}
+
+/* Tarjetas de productos */
+.tarjetas-contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px; /* Espaciado entre las tarjetas */
+}
+
+/* Imagen de producto */
+.imagen-productos {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para el botón */
+.btn-comprar {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-comprar:hover {
+  background-color: #218838;
+}
+
+/* Botón de volver al inicio */
+.volver-al-index button {
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.volver-al-index button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,124 @@
+/* General */
+.container-infoLacteos {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.titleinfolacteos {
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.pInfoLacteos {
+    font-size: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* Sección */
+.header-infolacteos {
+    background-color: #0033a0; /* Azul oscuro */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Categorías */
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.categoria {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    margin: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.categoria:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.categoria img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 15px;
+    transition: transform 0.3s ease;
+}
+
+.categoria img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #0033a0;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .categorias {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categoria {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    header {
+        padding: 30px 10px;
+    }
+
+
+    footer {
+        padding: 20px 0;
+    }
+}
+.volver-al-index {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.volver-al-index a button {
+    background-color: #0033a0; /* Azul oscuro, igual que el header */
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 600;
+}
+
+.volver-al-index a button:hover {
+    background-color: #00236b; /* Azul más oscuro */
+    transform: scale(1.1);
+}
+
+.volver-al-index a button:active {
+    transform: scale(1);
+}
